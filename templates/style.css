@@ -34,45 +34,87 @@ body {
 }
 
 .container {
-	padding: 1.4cm 2cm;;	
 	font-size: 0.625em;
 	background-color: right;
 	max-width: 17cm; /*A4 paper size* is 21cm, -4cm for padding*/
-	max-height: 26.9cm; /*A4 paper size is 29.7cm, -2.8 for padding */
+	min-height: 26.9cm; /*A4 paper size is 29.7cm, -2.8 for padding */
 	overflow: none;
 	margin: 0 auto;
 	background-color: white;
 	border-radius: 2px;
 }
 
-.main {
+@media screen and (min-width: 760px) {
+	.col2-3 {
+		margin-left:3.8cm;
+		float:left;
+		width: 12cm; /* 3 inches + 2.25 inches */
+	}
+
+	.col2-3-contents {
+		float:left;
+		width: 12cm;
+	}
+
+	.container {
+		padding: 1.4cm 2cm;
+	}
+
+	.col1 {
+		float:left;
+		width: 3.8cm; /* 1.5 inches */
+	}
+
+	.col2 {
+		float:left;
+		width: 7cm; /* 3 inches */ 
+	}
+
+	.col3 {
+		float:left;
+		width: 5cm; /* 2.25 inches */
+	}
+
 }
 
-.col1 {
-	float:left;
-	width: 3.8cm; /* 1.5 inches */
+@media screen and (max-width: 759px) {
+	.col2-3, .col2-3-contents {
+		float:left;
+		width:100%; /* 3 inches + 2.25 inches */
+		margin-top: .5em;
+	}
+
+	.container {
+		padding: .75cm 1cm;
+	}
+
+	.col1 {
+		float:left;
+		width:100%;
+	}
+
+	.col2 {
+		float:left;
+		width:100%;
+	}
+
+	.col3 {
+		float:left;
+		width:100%;
+	}
+
+	.contact {
+		display:block;
+		width:100%;
+	}
+
 }
 
-.col2 {
-	float:left;
-	width: 7cm; /* 3 inches */ 
-}
 
-.col3 {
-	float:left;
-	width: 5cm; /* 2.25 inches */
-}
 
-.col2-3 {
-	margin-left:3.8cm;
-	float:left;
-	width: 12cm; /* 3 inches + 2.25 inches */
-}
 
-.col2-3-contents {
-	float:left;
-	width: 12cm;
-}
+
+
 
 .row {
 	clear:left;
