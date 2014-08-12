@@ -1,0 +1,17 @@
+<div class="row item">
+	<div class="row">
+		<div class="col1"><%=section%>:</div>
+		<div class="col2-3-contents">
+			<% if (_.isArray(contents)) {%>
+			  <ul class="no-list"> 
+				<%contents.forEach(function(c) {%>
+					<li><%=c%></li>
+				<%})%>
+				</ul>
+			<%}
+			else { %>
+				<%=contents%>
+			<%}%>
+		</div>
+	</div>
+</div>

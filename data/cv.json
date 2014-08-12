@@ -1,0 +1,79 @@
+{
+	"forename": "Owen",
+	"surname": "Scott",
+	"email": "owen.m.scott@gmail.com",
+	"tel": "+1 917-940-4923",
+	"education": [
+		{
+			"date": "2014-2015",
+			"school": "University of Oxford",
+			"location": "Saïd Business School, UK",
+			"program": "Masters in Business Administration (expected)"
+		},
+		{
+			"date": "2011-2012",
+			"school": "Penn State University",
+			"location": "World Campus (Online)",
+			"program": "Postbaccalaureate Certificate in GIS"
+		},
+		{
+			"date": "2003-2008",
+			"school": "University of New Brunswick",
+			"location": "Fredericton, NB, Canada",
+			"program": "B.Sc. Civil Engineering, Minor International Development"
+		}
+	],
+	"workExperience": [
+		{
+			"date":"Nov-12 - Sep-14",
+			"company":"Development Gateway",
+			"location":"Washington, DC",
+			"title":"Senior Associate",
+			"bullets": [
+				"Managed technical assistance projects in two African countries totalling ~$1 million in funding",
+				"Led re-engineering on several significant software product components, helping to introduce new approaches to application architecture, build processes, and usability testing",
+				"Made significant technical contributions to the most important open data standard for tracking international development spending"
+			]
+		},
+		{
+			"date":"Jan-10 - Jun-12",
+			"company":"Independent  Consulting (Moonlighting)",
+			"location":"Malawi / Lesotho / Ghana",
+			"title":"VBA Software Developer",
+			"bullets": [
+				"Built software systems for data visualization for companies/projects managing over $10 million in infrastructure investment funding"
+			]
+		},
+		{
+			"date":"Jan-09 - Oct-12",
+			"company":"Engineers Without Borders Canada",
+			"location":"Malawi",
+			"title":"African Programs Staff",
+			"bullets": [
+				"Developed data management and visualization software for rural water supply planning",
+				"Optimized approachs to GIS mapping for users with limited internet access and technical abilities",
+				"Managed 3 program areas and 12 staff members"
+			]
+		},
+		{
+			"date":"May-07 - Aug-07",
+			"company":"Engineers Without Borders Canada",
+			"location":"Zambia",
+			"title":"Junior Fellow in International Development",
+			"bullets": [
+				"Supported a rural farming cooperative with business and engineering processes for international crop export",
+				"Lived in a mud hut in a rural village, gaining immersive learning about the daily realities of some of the world's economically poorest populations."
+			]
+		}
+	],
+	"interests": "Web Development (self-taught HTML, CSS, JavaScript, Node.js, Git, XML, SQL etc), Music (played guitar/vocals in two international music festivals and many smaller venus through 2011-2012), sports (rugby, ice hockey, frisbee, running, swimming, cycling)",
+	"achievements": [
+		"GMAT: 720 (98th percentile)",
+		"GRE: 168/170 Quantitative (97th percentile), 170/170 Verbal (99th percentile)",
+		"First Division in undergraduate degree with 7 major scholarships/awards",
+		"Alumni Annual Fund Scholarship for Oxford (USD $20,000)",
+		"Two peer-reviewed publications in water and sanitation journals"
+	],
+	"nationality": "Dual Canadian/American Citizen",
+	"languages": "French (professional competence), Chichewa (intermediate)"
+}

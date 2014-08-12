@@ -1,0 +1,21 @@
+{
+  "name": "oxford-resume",
+  "version": "0.0.1",
+  "description": "A generator for Oxford Said Business school templated resumes.",
+  "main": "render.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "resume",
+    "json",
+    "template"
+  ],
+  "author": "Owen Scott",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.17.0",
+    "underscore": "^1.6.0",
+    "wkhtmltopdf": "^0.1.5"
+  }
+}

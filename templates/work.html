@@ -1,0 +1,19 @@
+<div class="row item">
+	<div class="row">
+		<div class="col1"><strong><%=date%></strong></div>
+		<div class="col2">
+			<div class="row"><strong><%=company%></strong></div>
+			<div class="row"><em><%=title%></em></div>
+		</div>
+		<div class="col3"><%=location%></div>
+	</div>
+	<div class="row">
+		<div class="col2-3">
+			<ul>
+				<% for (var b in bullets) { %>
+					<li><%=bullets[b]%></li>
+				<% } %>
+			</ul>
+		</div>
+	</div>
+</div>

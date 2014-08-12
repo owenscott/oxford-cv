@@ -1,0 +1,98 @@
+/*
+	the first column goes to 1.5"
+	the second column goes to 4.5"
+	the third column goes to 6.75"
+	col 3 shoudl wrap under col 2 before col 2 wraps under col 1
+	bullets and other text extend through columns 2 and three
+*/
+
+
+h1 {
+	font-size:1.2em; /* 12pt/10pt = 1.2*/
+	margin: 0;
+}
+
+.center {
+	display:block;
+	text-align:center;
+}
+
+section h2 {
+	font-size: 1em;
+	margin: .5em 0 1em 0;
+}
+
+ul {
+	margin: 0 0 0 20px;
+	padding: 0;
+}
+
+body {
+	font-size:16pt;
+	font-family: "arial";
+	background-color: grey;
+}
+
+.container {
+	padding: 1.4cm 2cm;;	
+	font-size: 0.625em;
+	background-color: right;
+	max-width: 17cm; /*A4 paper size* is 21cm, -4cm for padding*/
+	max-height: 26.9cm; /*A4 paper size is 29.7cm, -2.8 for padding */
+	overflow: none;
+	margin: 0 auto;
+	background-color: white;
+	border-radius: 2px;
+}
+
+.main {
+}
+
+.col1 {
+	float:left;
+	width: 3.8cm; /* 1.5 inches */
+}
+
+.col2 {
+	float:left;
+	width: 7cm; /* 3 inches */ 
+}
+
+.col3 {
+	float:left;
+	width: 5cm; /* 2.25 inches */
+}
+
+.col2-3 {
+	margin-left:3.8cm;
+	float:left;
+	width: 12cm; /* 3 inches + 2.25 inches */
+}
+
+.col2-3-contents {
+	float:left;
+	width: 12cm;
+}
+
+.row {
+	clear:left;
+}
+
+.item{ 
+	margin: 0 0 1em 0;
+	overflow:auto;
+}
+
+.no-list {
+	list-style-type: none;
+	margin: 0;
+}
+
+.line {
+	border-top: grey solid 1px;
+}
+
+h2 {
+	margin-top:10em;
+}
+
